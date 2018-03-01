@@ -1,0 +1,58 @@
+body{
+    background: rgb(235, 235, 235);
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.22);
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    margin-top: 100px;
+    border-radius: 3px;
+}
+.block{
+    padding: 10px 0;
+}
+
+.link{
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.link:hover{
+    border-color: #333;
+}
+
+.link--bold{
+    font-weight: 700;
+    font-size: 18px;
+}
+.link-thin{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.git{
+    margin-top: 40px;
+}
+
+.git__link{
+    transition: 0.3s;
+}
+
+.git__link:hover{
+    opacity: 0.7;
+}
+
+.git__icon{
+    width: 40px;
+    height: 40px;
+}
+
+.stack{
+    margin-top: 20px;
+}
